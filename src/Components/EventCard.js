@@ -54,7 +54,7 @@ function EventCard({
         <div className="contentsItem" key={item.id}>
           <a>
             <div className="cIimgBox">
-              <img className="cIimg" src={item.img} />
+              <img className="cIimg" src={item.img} alt="img"/>
             </div>
             <div className="cICBox">
               <div className="cICtxtBox">
