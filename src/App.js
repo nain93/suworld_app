@@ -17,11 +17,19 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Container = styled.div`
   max-width: 768px;
+  height: 100vh;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
   margin: 0 auto;
-  margin-top: 10px;
+  padding-top: 1%;
 `;
 
-const Header = styled(GlobalContainer)``;
+const Header = styled(GlobalContainer)`
+  height: 20%;
+  width: 100%;
+`;
 
 const InputBlock = styled.div`
   position: relative;

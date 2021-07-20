@@ -17,7 +17,7 @@ import { GlobalContainer } from "./GolbalStyles";
 import dummyData from "./dummyData";
 
 const Container = styled(GlobalContainer)`
-  height: 100%;
+  height: 80%;
 `;
 
 const NavBox = styled.div`
